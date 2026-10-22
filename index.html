@@ -3,63 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DDSTORE — jerseys, bags, shoes, chappals, belts and trackpants. All-India delivery.">
-  <title>DDSTORE | Accessories & Streetwear</title>
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="DDSTORE — streetwear and accessories. All India delivery.">
+  <title>DDSTORE | Streetwear & Accessories</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="shipping-bar">ALL-INDIA DELIVERY • SHOP YOUR FAVOURITES</div>
+  <div class="delivery-bar">ALL INDIA DELIVERY <span>•</span> DM OR CALL TO ORDER</div>
   <header class="site-header">
-    <a class="brand" href="#" aria-label="DDSTORE home">DD<span>STORE</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#categories">Categories</a><a href="#featured">Featured</a><a href="#contact">Contact</a>
+    <a class="wordmark" href="#" aria-label="DDSTORE home">DDSTORE<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="header-cta" href="#contact">Order Now ↗</a>
+    <a class="header-cta" href="https://wa.me/918089092827" target="_blank" rel="noopener">ORDER NOW ↗</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" aria-label="DDSTORE introduction">
+      <img class="hero-image" src="assets/hero.jpg" alt="DDSTORE fashion campaign portrait">
+      <div class="hero-shade"></div>
       <div class="hero-copy">
-        <p class="eyebrow">STYLE THAT MOVES WITH YOU</p>
-        <h1>YOUR STYLE.<br><span>YOUR RULES.</span></h1>
-        <p class="hero-desc">Fresh jerseys, everyday essentials and street-ready accessories. Find your next favourite at DDSTORE.</p>
-        <a class="button button-light" href="#categories">SHOP COLLECTION <span>↘</span></a>
-        <p class="hero-note">ALL-INDIA DELIVERY AVAILABLE</p>
+        <p class="eyebrow">YOUR STYLE. YOUR STATEMENT.</p>
+        <h1>EVERYDAY<br><em>ICONIC.</em></h1>
+        <p class="hero-sub">Streetwear essentials and accessories<br>picked for your daily rotation.</p>
+        <a class="button button-light" href="#categories">EXPLORE THE COLLECTION <span>↘</span></a>
       </div>
-      <div class="hero-art" role="img" aria-label="Black and white fashion collection">
-        <div class="hero-label">DDSTORE<br><small>NEW DROP / 01</small></div>
-        <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
-        <div class="hero-stamp">MOVE<br>YOUR<br>WAY</div>
-      </div>
+      <div class="hero-index">DD / 001 <span>THALASSERY • INDIA</span></div>
     </section>
 
     <section class="category-section" id="categories">
-      <div class="section-heading"><div><p class="eyebrow">FIND YOUR FIT</p><h2>SHOP BY CATEGORY</h2></div><p>Everyday picks. Standout style.</p></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR NEXT FAVOURITE</p><h2>SHOP BY <em>CATEGORY</em></h2></div>
+        <p class="section-note">A little something for<br>every fit and every day.</p>
+      </div>
       <div class="category-grid">
-        <a class="category-card" href="#contact"><div class="category-image jersey"><span>01</span><div class="illustration shirt"></div></div><div class="category-title">Jerseys <b>↗</b></div></a>
-        <a class="category-card" href="#contact"><div class="category-image bag"><span>02</span><div class="illustration backpack"></div></div><div class="category-title">Bags <b>↗</b></div></a>
-        <a class="category-card" href="#contact"><div class="category-image shoes"><span>03</span><div class="illustration sneaker"></div></div><div class="category-title">Shoes <b>↗</b></div></a>
-        <a class="category-card" href="#contact"><div class="category-image chappal"><span>04</span><div class="illustration sandal"></div></div><div class="category-title">Chappal <b>↗</b></div></a>
-        <a class="category-card" href="#contact"><div class="category-image belt"><span>05</span><div class="illustration belt-art"></div></div><div class="category-title">Belts <b>↗</b></div></a>
-        <a class="category-card" href="#contact"><div class="category-image track"><span>06</span><div class="illustration pants"></div></div><div class="category-title">Trackpants <b>↗</b></div></a>
+        <article class="category-card category-jersey">
+          <img src="assets/hero.jpg" alt="Fashion inspiration for jerseys" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>01 / TOPS</span><h3>JERSEYS</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20jerseys." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
+        <article class="category-card">
+          <img src="assets/bag.jpg" alt="Black fashion backpack" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>02 / CARRY</span><h3>BAGS</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20bags." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
+        <article class="category-card">
+          <img src="assets/shoes.jpg" alt="White sneakers" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>03 / FOOTWEAR</span><h3>SHOES</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20shoes." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
+        <article class="category-card">
+          <img src="assets/chappal.jpg" alt="Two-strap casual sandals" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>04 / FOOTWEAR</span><h3>CHAPPALS</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20chappals." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
+        <article class="category-card">
+          <img src="assets/belt.jpg" alt="Black belts with metal buckles" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>05 / DETAILS</span><h3>BELTS</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20belts." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
+        <article class="category-card">
+          <img src="assets/trackpants.jpg" alt="Black track pants with red stripes" loading="lazy">
+          <div class="card-overlay"></div><div class="card-content"><span>06 / STREET</span><h3>TRACKPANTS</h3><a class="category-link" href="https://wa.me/918089092827?text=Hi%20DDSTORE%2C%20I%27m%20interested%20in%20trackpants." target="_blank" rel="noopener">ENQUIRE ↗</a></div>
+        </article>
       </div>
     </section>
 
-    <section class="feature" id="featured">
-      <div class="feature-art"><div class="feature-graphic">DD<br>—<br>ST</div><span>ESSENTIALS / EVERYDAY</span></div>
-      <div class="feature-copy"><p class="eyebrow">THE DDSTORE EDIT</p><h2>GOOD GEAR.<br>NO EXTRA NOISE.</h2><p>Explore versatile pieces made for daily wear, casual outings and your own personal style.</p><a class="button button-dark" href="#contact">ASK ABOUT PRODUCTS ↗</a></div>
+    <section class="statement" id="about">
+      <p class="eyebrow">THE DDSTORE WAY</p>
+      <h2>GOOD STYLE.<br><em>NO EXTRA NOISE.</em></h2>
+      <p>Accessories and everyday fits, curated with a clean streetwear mindset.</p>
     </section>
 
-    <section class="delivery-strip"><strong>DELIVERING ACROSS INDIA</strong><span>Reach out to check product availability, delivery charges and estimated arrival.</span><a href="tel:08089092827">CALL TO ORDER ↗</a></section>
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">LET'S GET YOU THE FIT</p><h2>READY TO<br><em>ORDER?</em></h2></div>
+      <div class="contact-details">
+        <a href="tel:08089092827"><span>CALL / WHATSAPP</span><strong>080890 92827 ↗</strong></a>
+        <a href="https://www.instagram.com/ddstoreeee.inn/" target="_blank" rel="noopener"><span>INSTAGRAM</span><strong>@ddstoreeee.inn ↗</strong></a>
+        <div><span>LOCATION</span><strong>Thalassery Nadapuram Road</strong></div>
+      </div>
+    </section>
   </main>
 
-  <footer id="contact">
-    <div class="footer-main"><div><a class="brand footer-brand" href="#">DD<span>STORE</span></a><p>Everyday accessories. Your own kind of style.</p></div>
-      <div class="contact-block"><h3>ORDER / ENQUIRIES</h3><a href="tel:08089092827">080890 92827</a><a href="https://www.instagram.com/ddstoreeee.inn/" target="_blank" rel="noopener">@ddstoreeee.inn on Instagram</a></div>
-      <div class="contact-block"><h3>VISIT / LOCATION</h3><p>Thalassery Nadapuram Road</p><p>All-India delivery available</p></div>
-    </div><div class="footer-bottom"><span>© <span id="year"></span> DDSTORE</span><span>BLACK / WHITE / YOUR STYLE</span></div>
-  </footer>
+  <footer><a class="wordmark" href="#">DDSTORE<span>®</span></a><p>ALL INDIA DELIVERY · MADE FOR YOUR EVERYDAY</p><small>© <span id="year"></span> DDSTORE. All rights reserved.</small></footer>
   <script src="script.js"></script>
 </body>
 </html>

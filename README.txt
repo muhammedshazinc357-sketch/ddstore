@@ -1,16 +1,19 @@
 DDSTORE WEBSITE
-==============
-A responsive black-and-white storefront built with HTML, CSS and vanilla JavaScript.
+---------------
+Files:
+- index.html: page content
+- style.css: black-and-white responsive styling
+- script.js: mobile menu and current-year footer
 
-HOW TO OPEN
-1. Extract DDSTORE_website.zip.
-2. Open index.html in a browser, or upload the extracted folder to your web host.
-3. Keep the assets folder beside index.html.
+HOW TO PREVIEW:
+1. Extract this ZIP.
+2. Open index.html in a browser.
 
-CUSTOMIZE
-- Edit product/category content in index.html.
-- Edit colours, spacing and layout in style.css.
-- Edit menu behaviour in script.js.
-- Replace images inside assets if you update your product photos.
+CUSTOMIZE:
+- Edit the categories, text, contact details and styles in the files.
+- Category artwork is CSS-drawn placeholder illustration (not actual product photos).
+- Google Fonts are loaded online; system fonts are used if offline.
 
-The category enquiry links open WhatsApp with a pre-filled message. This is a front-end showcase; it does not include inventory, payment processing, or checkout.
+NOTE:
+This is a front-end storefront concept. It does not include a product database,
+cart checkout, payment gateway, order management, or verified delivery integration.
